@@ -1,0 +1,66 @@
+.label {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: .9;
+}
+
+#title {
+    -fx-font-size: 30pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: .9;
+}
+
+.button {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+
+    linear-gradient(from 0% 93% to 0% 100%, #ffffff 0%, #000000 100%),
+                                 #ffffff,
+                                 #000000,
+                                 radial-gradient(center 50% 50%, radius 100%, #ffffff, #000000);
+    -fx-effect: dropshadow( gaussian , #ffffff, 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.button:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#evolve {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+
+    linear-gradient(from 0% 93% to 0% 100%, #44c96c 0%, #000000 100%),
+                                 #44c96c,
+                                 #000000,
+                                 radial-gradient(center 50% 50%, radius 100%, #44c96c, #000000);
+    -fx-effect: dropshadow( gaussian , #44c96c, 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+#evolve:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#Error {
+    -fx-text-fill: red;
+}
+
+#title{
+        -fx-font-size: 60pt;
+        -fx-fill: linear-gradient(#ffffff, #000000),
+                linear-gradient(#ffffff, #000000),
+                linear-gradient(#ffffff 0%, #000000 50%, #ffffff 100%),
+                linear-gradient(from 0% 0% to 15% 50%, #000000, #ffffff);
+        -fx-effect: dropshadow( one-pass-box , #000000 , 1, 0.0 , 0 , 5 );
+ }
